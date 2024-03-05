@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sbbwu_session10_list_grid/screens/dynamic_list_view_screen.dart';
+import 'package:sbbwu_session10_list_grid/screens/simple_gridview_screen.dart';
 import 'package:sbbwu_session10_list_grid/screens/simple_list_view_screen.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home: const DynamicListViewScreen(),
+        home: const SimpleGridViewScreen(),
     );
   }
 }
